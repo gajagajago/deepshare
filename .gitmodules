@@ -1,0 +1,20 @@
+[submodule "models/DLRM"]
+	path = models/DLRM
+	url = git@github.com:facebookresearch/dlrm.git
+	branch = main
+[submodule "models/fairscale"]
+	path = models/fairscale
+	url = git@github.com:facebookresearch/fairscale.git
+	branch = main
+[submodule "models/transformer-xl"]
+	path = models/transformer-xl
+	url = git@github.com:deepshare23/Transformer-XL.git
+	branch = main
+[submodule "models/DeepSpeedPipelineParallel"]
+	path = models/DeepSpeedPipelineParallel
+	url = git@github.com:deepshare23/DeepSpeed-PipelineParallel.git
+	branch = main
+[submodule "stable-baselines3"]
+	path = stable-baselines3
+	url = git@github.com:deepshare23/stable-baselines3.git
+	branch = main

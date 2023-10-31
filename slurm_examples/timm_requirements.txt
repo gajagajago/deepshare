@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu113
+
+pandas
+numpy
+pyyaml
+torch==1.10.1+cu113
+torchvision==0.11.2+cu113
+torchaudio
+timm
+Pillow
+tqdm

@@ -1,0 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cu113
+
+future
+numpy
+onnx
+pydot
+torch==1.10.1+cu113
+torchviz
+scikit-learn
+tqdm

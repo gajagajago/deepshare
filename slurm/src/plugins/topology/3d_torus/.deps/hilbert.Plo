@@ -1,0 +1,6 @@
+hilbert.lo: hilbert.c /usr/include/stdc-predef.h \
+ ../../../../src/plugins/topology/3d_torus/hilbert.h
+
+/usr/include/stdc-predef.h:
+
+../../../../src/plugins/topology/3d_torus/hilbert.h:

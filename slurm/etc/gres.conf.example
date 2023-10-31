@@ -1,0 +1,10 @@
+##################################################################
+# Slurm's Generic Resource (GRES) configuration file
+# Use a single gres.conf file for all compute nodes - positive method
+##################################################################
+
+NodeName=elsa-10 Name=gpu Type=titan File=/dev/nvidia[0-5]
+NodeName=elsa-11 Name=gpu Type=titan File=/dev/nvidia[0-5]
+NodeName=elsa-12 Name=gpu Type=titan File=/dev/nvidia[0-5]
+NodeName=elsa-13 Name=gpu Type=titan File=/dev/nvidia[0-5]
+NodeName=elsa-15 Name=gpu Type=titan File=/dev/nvidia[0-5]

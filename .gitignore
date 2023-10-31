@@ -1,0 +1,51 @@
+**/.venv/
+**/__pycache__/
+**/tensorboard/
+**/.logs/
+**/*.dat
+**/.DS_Store
+**/profiler/output/
+**/profiler/run_kaggle_pt/
+**/profiler/pretrained-bert/
+**/profiler/scripts/pretrained-bert/
+**/profiler/*.txt
+**/profiler/results/
+**/profiler/scripts/output/
+**/profiler/scripts/outputs/
+**/profiler/scripts/run_kaggle_pt/
+**/pretrained-bert/
+**/profiler/scripts/*.txt
+/profiler/scripts/multirun
+
+# setup related
+/build
+*.egg-info
+
+# Models related
+/profiler/models/image_model/output
+/profiler/models/speech/wav2vec2/outputs
+/profiler/models/speech/data2vec/multirun
+
+# slurm related
+/slurm/examples/out/*
+/slurm/examples/output
+/slurm/src/plugins/openapi
+/slurm/src/scrontab
+/slurm/testsuite
+/slurm/src/api
+*.service
+
+# slurm conf related
+/slurm/etc/slurm.conf
+/slurm/etc/gres.conf
+
+# vscode related
+*.code-workspace
+
+# RL training related
+training-log-*
+*-ckpt
+*.log
+*.pdf
+*.pyc
+*.zip
