@@ -1,12 +1,14 @@
 ## Installation
 
-Requires
+### Requirements
 - Python >= 3.9
 - conda
-- Slurm 22.05.3
-- CUDA 11.3.0
-- NCCL 2.9.9
-- Hadoop 3.3.4
+- Slurm
+- CUDA
+- NCCL
+- Hadoop
+
+### Setup
 
 1. Clone 
 ```
@@ -54,9 +56,9 @@ user = [HDFS user ID]
 conda create -n deepshare+slurm python=3.9 -y
 ```
 
-4. Set up packages (editable mode)
+4. Set up packages
 ```
-pip install -e .
+pip install .
+pip install -r scheduler/requirements.txt
+cd stable-baseline3 && pip install -e .
 ```
-
-This will add packages (and some misc dependencies) listed at `setup.py`

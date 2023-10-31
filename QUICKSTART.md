@@ -1,13 +1,6 @@
-# DeepShare Simulator & Scheduler
+## Quickstart
 
-## Prerequisites
-Install the required packages. 
-```
-pip install -r requirements.txt
-cd stable-baseline3 && pip install -e .
-```
-
-## Training with Simulator
+### Training with simulator
 
 ```
 python3 ./train.py [--nodes NODES] [--gpus-per-node GPUS_PER_NODE] \
@@ -18,7 +11,7 @@ python3 ./train.py [--nodes NODES] [--gpus-per-node GPUS_PER_NODE] \
         [--isolated-thp-path ISOLATED_THP_PATH] [--shared-thp-path SHARED_THP_PATH]
 ```
 
-## Validation with Real GPU Cluster
+### Deploying on real GPU Cluster
 
 ```
 python3 ./launch.py [--nodes NODES] [--gpus-per-node GPUS_PER_NODE] \
