@@ -14,7 +14,7 @@
 	path = models/DeepSpeedPipelineParallel
 	url = git@github.com:deepshare23/DeepSpeed-PipelineParallel.git
 	branch = main
-[submodule "stable-baselines3"]
-	path = stable-baselines3
+[submodule "modules/stable-baselines3"]
+	path = modules/stable-baselines3
 	url = git@github.com:deepshare23/stable-baselines3.git
 	branch = main
