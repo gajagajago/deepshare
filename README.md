@@ -1,6 +1,6 @@
 # Network Contention-Aware Cluster Scheduling with Reinforcement Learning [Paper]
 
-DeepShare is a framework for (1) training network contention-aware scheduling policy using RL and (2) deploying it to GPU clusters.
+DeepShare is a framework for (1) training network contention-aware scheduling policy using RL and (2) deploying it for efficient management of distributed DL jobs in GPU clusters.
 
 <img src="assets/exp.png" title="exp">
 
