@@ -12,6 +12,7 @@ TLDR: Distributed DL training on shared GPU clusters is prone to network content
 
 - Refer to [Installation](INSTALL.md) for complete instructions on environment setup and installation.
 - Refer to [Quickstart](QUICKSTART.md) for training scheduling policies with RL and deploying on GPU cluster.
+- Refer to [Examples](slurm_examples/EXAMPLE.md) for writing custom job scripts.
 
 ## Citation
 TBD.
