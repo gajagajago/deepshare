@@ -46,6 +46,5 @@
 training-log-*
 *-ckpt
 *.log
-*.pdf
 *.pyc
 *.zip
