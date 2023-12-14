@@ -1,4 +1,4 @@
-# Network Contention-Aware Cluster Scheduling with Reinforcement Learning [[Paper](https://arxiv.org/abs/2310.20209)]
+# Network Contention-Aware Cluster Scheduling with Reinforcement Learning [[Paper](https://arxiv.org/abs/2310.20209)] [[Poster](data/deepshare_poster.pdf)]
 
 DeepShare presents (1) a method to mitigate network contention by training a sophisticated scheduling policy using RL and (2) a framework to deploy it for efficient management of distributed DL jobs in GPU clusters.
 
