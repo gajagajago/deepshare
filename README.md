@@ -16,11 +16,13 @@ TLDR: Distributed DL training on shared GPU clusters is prone to network content
 
 ## Citation
 ```
-@article{ryu2023network,
-  title={Network Contention-Aware Cluster Scheduling with Reinforcement Learning},
+@inproceedings{ryu2023network,
+  title={Network contention-aware cluster scheduling with reinforcement learning},
   author={Ryu, Junyeol and Eo, Jeongyoon},
-  journal={arXiv preprint arXiv:2310.20209},
-  year={2023}
+  booktitle={2023 IEEE 29th International Conference on Parallel and Distributed Systems (ICPADS)},
+  pages={2742--2745},
+  year={2023},
+  organization={IEEE}
 }
 ```
 
