@@ -26,8 +26,6 @@ TLDR: Distributed DL training on shared GPU clusters is prone to network content
 }
 ```
 
-Please note that citation will be modified after paper is officially published in [IEEE ICPADS 2023](https://ieee-cybermatics.org/2023/icpads/index.php) proceedings.
-
 ## Contact
 
-Junyeol Ryu (junyeol@aces.snu.ac.kr)
+Junyeol Ryu (jyeol.ryu@gmail.com)
